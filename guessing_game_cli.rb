@@ -16,7 +16,6 @@ def run_guessing_game()
     else
       puts "Sorry! The computer guessed 6."
     end
-
   end
 end
 
