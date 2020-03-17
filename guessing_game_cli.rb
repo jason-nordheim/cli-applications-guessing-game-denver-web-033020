@@ -11,10 +11,11 @@ def run_guessing_game()
 
 end
 
-def process_response(response)
+def process_response(response, correct_num)
   if response == "exit"
     puts "Goodbye"
   elsif response.class == 1.class
+    if response.to_i ==
   else
 
   end
