@@ -14,14 +14,14 @@ end
 def process_response(response, correct_num)
   if response == "exit"
     puts "Goodbye"
-  elsif response.class == 1.class
+  elsif response.class == 1.class and
     if response.to_i == correct_num
       puts "You guessed the correct number!"
     else
       puts "Sorry! The computer guessed 6."
     end
   else
-
+    "Incorrect"
   end
 end
 
