@@ -5,6 +5,8 @@ def run_guessing_game()
   num = rand(1...6)
   p num
 
+  # prompt the user for input 
+  
 end
 
 run_guessing_game()
