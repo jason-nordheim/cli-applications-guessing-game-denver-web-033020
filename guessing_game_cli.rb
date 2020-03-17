@@ -15,7 +15,8 @@ def process_response(response, correct_num)
   if response == "exit"
     puts "Goodbye"
   elsif response.class == 1.class
-    if response.to_i ==
+    if response.to_i == correct_num
+      puts ""
   else
 
   end
