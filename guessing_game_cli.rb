@@ -20,7 +20,8 @@ end
 def get_response()
   response = gets.chomp()
   if response = "exit"
-    return get_response()
+    return 
+
   elsif response.to_i > 0 and response.to_i < 7
     return response.to_i
   else
