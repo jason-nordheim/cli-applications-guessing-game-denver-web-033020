@@ -6,7 +6,7 @@ def run_guessing_game()
   p num
 
   # prompt the user for input
-
+  prompt_for_num()
 end
 
 def prompt_for_num()
@@ -15,6 +15,9 @@ end
 
 def get_response()
   response = gets.chomp()
+  if response = nil
+    return get_response() 
+  end
   return response
 end
 
