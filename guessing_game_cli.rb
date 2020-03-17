@@ -10,6 +10,10 @@ def run_guessing_game()
 end
 
 def prompt_for_num()
+  puts 'Please enter a number between 1 and 6: '
+end
+
+def get_response()
 end 
 
 run_guessing_game()
