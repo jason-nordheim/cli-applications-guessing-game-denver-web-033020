@@ -2,7 +2,7 @@
 
 def run_guessing_game()
   # generate random number
-  num = rand(1...6)
+  num = rand(6) + 1
   # prompt the user for input
   prompt_for_num()
   # get the response
