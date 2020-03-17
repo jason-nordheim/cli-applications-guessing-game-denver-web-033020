@@ -10,12 +10,10 @@ def run_guessing_game()
   # see if they guessed correct
   if response == "exit"
     puts "Goodbye"
-  elsif response.class == 1.class and
-    if response.to_i == num
-      puts "You guessed the correct number!"
-    else
-      puts "Sorry! The computer guessed 6."
-    end
+  elsif response.to_i == num
+    puts "You guessed the correct number!"
+  else
+    puts "Sorry! The computer guessed #{num}."
   end
 end
 
