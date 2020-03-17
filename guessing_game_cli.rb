@@ -8,14 +8,10 @@ def run_guessing_game()
   # get the response
   response = get_response()
   # see if they guessed correct
-  process_response(correct_num)
-end
-
-def process_response(response, correct_num)
   if response == "exit"
     puts "Goodbye"
   elsif response.class == 1.class and
-    if response.to_i == correct_num
+    if response.to_i == num
       puts "You guessed the correct number!"
     else
       puts "Sorry! The computer guessed 6."
@@ -26,6 +22,10 @@ def process_response(response, correct_num)
   #   rs = get_response()
   #   process_response(rs, correct_num)
   end
+end
+
+def process_response(response, correct_num)
+
 end
 
 def prompt_for_num()
