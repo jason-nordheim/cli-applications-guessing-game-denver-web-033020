@@ -8,10 +8,15 @@ def run_guessing_game()
   # get the response
   response = get_response()
   # see if they guessed correct
-  if response == num
-
-  end
+  if response == "exit" 
+    puts "Goodbye"
+  elsif response.class == 1.class 
+  else 
+    
+  end 
 end
+
+def process_response(response)
 
 def prompt_for_num()
   puts 'Please enter a number between 1 and 6: '
