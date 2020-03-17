@@ -8,7 +8,7 @@ def run_guessing_game()
   # get the response
   response = get_response()
   # see if they guessed correct
-
+  process_response(correct_num)
 end
 
 def process_response(response, correct_num)
