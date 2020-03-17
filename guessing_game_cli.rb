@@ -21,7 +21,7 @@ def process_response(response, correct_num)
       puts "Sorry! The computer guessed 6."
     end
   else
-    "Incorrect"
+    "Error - Invalid Input"
     prompt_for_num()
     rs = get_response()
     process_response(rs, correct_num)
