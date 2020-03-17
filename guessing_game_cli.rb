@@ -16,15 +16,9 @@ def run_guessing_game()
     else
       puts "Sorry! The computer guessed 6."
     end
-  # else
-  #   puts "Error - Invalid Input"
-  #   prompt_for_num()
-  #   rs = get_response()
-  #   process_response(rs, correct_num)
+
   end
 end
-
-def process_response(response, correct_num)
 
 end
 
