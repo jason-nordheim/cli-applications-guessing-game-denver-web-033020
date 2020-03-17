@@ -7,9 +7,9 @@ def run_guessing_game()
   prompt_for_num()
   # get the response
   response = get_response()
-  # see if they guessed correct 
+  # see if they guessed correct
   if response == num 
-  end 
+  end
 end
 
 def prompt_for_num()
