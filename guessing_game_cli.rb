@@ -14,6 +14,7 @@ def prompt_for_num()
 end
 
 def get_response()
-end 
+  response = gets.chomp() 
+end
 
 run_guessing_game()
