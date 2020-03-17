@@ -19,16 +19,7 @@ end
 
 def get_response()
   response = gets.chomp()
-  if response = "exit"
-    return 
-
-  elsif response.to_i > 0 and response.to_i < 7
-    return response.to_i
-  else
-    puts "Invalid Number"
-    prompt_for_num()
-    return get_response()
-  end
+  return response 
 end
 
 run_guessing_game()
