@@ -14,7 +14,7 @@ def prompt_for_num()
 end
 
 def get_response()
-  response = gets.chomp() 
+  response = gets.chomp()
   return response
 end
 
