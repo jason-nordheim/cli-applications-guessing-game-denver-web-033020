@@ -9,7 +9,7 @@ def run_guessing_game()
   response = get_response()
   # see if they guessed correct
   if response == "exit"
-    puts "Please enter a number between 1 and 6: \nGoodbye\n
+    puts "Please enter a number between 1 and 6: \nGoodbye\n"
   elsif response.to_i == num
     puts "You guessed the correct number!"
   else
