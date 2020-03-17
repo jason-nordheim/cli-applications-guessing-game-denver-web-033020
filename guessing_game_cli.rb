@@ -8,7 +8,8 @@ def run_guessing_game()
   # get the response
   response = get_response()
   # see if they guessed correct
-  if response == num 
+  if response == num
+    
   end
 end
 
