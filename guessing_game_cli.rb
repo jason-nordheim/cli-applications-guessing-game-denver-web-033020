@@ -16,8 +16,13 @@ end
 def get_response()
   response = gets.chomp()
   if response = nil
-    return get_response() 
+    return get_response()
+  elsif response.to_i > 0 and response.to_i < 7
+
+  else
+    
   end
+
   return response
 end
 
