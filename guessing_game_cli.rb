@@ -2,5 +2,5 @@
 
 def run_guessing_game()
   num = rand(1...6)
-  print num 
+  p num
 end
