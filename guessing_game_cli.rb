@@ -6,7 +6,7 @@ def run_guessing_game()
   # prompt the user for input
   puts "Please enter a number between 1 and 6:"
   # get the response
-  response = response = gets.chomp()
+  response = gets.chomp()
   # see if they guessed correct
   if response == "exit"
     puts "Goodbye"
