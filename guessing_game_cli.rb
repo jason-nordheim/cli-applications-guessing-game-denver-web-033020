@@ -21,6 +21,8 @@ def get_response()
     return response.to_i
   else
     puts "Invalid Number"
+    prompt_for_num()
+    return get_response() 
   end
 end
 
