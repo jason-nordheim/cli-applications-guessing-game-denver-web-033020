@@ -7,6 +7,7 @@ def run_guessing_game()
 
   # prompt the user for input
   prompt_for_num()
+  response = get_response() 
 end
 
 def prompt_for_num()
@@ -22,7 +23,7 @@ def get_response()
   else
     puts "Invalid Number"
     prompt_for_num()
-    return get_response() 
+    return get_response()
   end
 end
 
