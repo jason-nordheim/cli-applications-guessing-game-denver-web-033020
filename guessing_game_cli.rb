@@ -8,12 +8,12 @@ def run_guessing_game()
   # get the response
   response = get_response()
   # see if they guessed correct
-  if response == "exit" 
+  if response == "exit"
     puts "Goodbye"
-  elsif response.class == 1.class 
-  else 
-    
-  end 
+  elsif response.class == 1.class
+  else
+
+  end
 end
 
 def process_response(response)
@@ -24,7 +24,7 @@ end
 
 def get_response()
   response = gets.chomp()
-  return response 
+  return response
 end
 
 run_guessing_game()
