@@ -20,7 +20,7 @@ def get_response()
   elsif response.to_i > 0 and response.to_i < 7
     return response.to_i 
   else
-
+    print 
   end
 
   return response
