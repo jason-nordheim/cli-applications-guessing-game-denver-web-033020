@@ -15,6 +15,7 @@ end
 
 def get_response()
   response = gets.chomp() 
+  return response
 end
 
 run_guessing_game()
