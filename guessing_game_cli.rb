@@ -4,7 +4,7 @@ def run_guessing_game()
   # generate random number
   num = rand(6) + 1
   # prompt the user for input
-  puts 'Please enter a number between 1 and 6: '
+  puts "Please enter a number between 1 and 6:"
   # get the response
   response = response = gets.chomp()
   # see if they guessed correct
