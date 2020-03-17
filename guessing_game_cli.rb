@@ -3,11 +3,12 @@
 def run_guessing_game()
   # generate random number
   num = rand(1...6)
-  p num
-
   # prompt the user for input
   prompt_for_num()
-  response = get_response() 
+  # get the response
+  response = get_response()
+  # see if they guessed correct 
+
 end
 
 def prompt_for_num()
