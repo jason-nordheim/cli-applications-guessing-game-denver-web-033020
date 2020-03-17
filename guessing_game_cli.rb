@@ -17,8 +17,6 @@ def run_guessing_game()
   end
 end
 
-end
-
 def prompt_for_num()
   puts 'Please enter a number between 1 and 6: '
 end
