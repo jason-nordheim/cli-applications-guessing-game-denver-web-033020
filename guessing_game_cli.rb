@@ -4,9 +4,9 @@ def run_guessing_game()
   # generate random number
   num = rand(6) + 1
   # prompt the user for input
-  prompt_for_num()
+  puts 'Please enter a number between 1 and 6: '
   # get the response
-  response = get_response()
+  response = response = gets.chomp()
   # see if they guessed correct
   if response == "exit"
     puts "Goodbye"
@@ -15,13 +15,4 @@ def run_guessing_game()
   else
     puts "Sorry! The computer guessed #{num}."
   end
-end
-
-def prompt_for_num()
-  puts 'Please enter a number between 1 and 6: '
-end
-
-def get_response()
-  response = gets.chomp()
-  return response
 end
