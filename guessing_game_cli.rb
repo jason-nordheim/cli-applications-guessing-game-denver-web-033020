@@ -9,7 +9,7 @@ def run_guessing_game()
   response = gets.chomp()
   # see if they guessed correct
   if response == "exit"
-    puts "Goodbye"
+    puts "Goodbye!"
   elsif response.to_i == num
     puts "You guessed the correct number!"
   else
